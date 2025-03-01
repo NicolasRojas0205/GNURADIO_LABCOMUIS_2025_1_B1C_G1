@@ -1,28 +1,18 @@
 # Laboratorio de Comunicaciones
 ## Universidad Industrial de Santander
 
-Utilice esta [plantilla](#integrantes) para presentar sus informes de laboratorio. 
-
-Al final de la plantilla encontrará algunos ejemplos para enriquecer su informe, incluyendo cómo insertar imágenes, tablas y ecuaciones, así como generar hipervínculos a su repositorio o al propio informe. Ir a [ejemplos en Markdown](#ejemplos-usando-markdown)
-
-### Importante
-
-- En caso de utilizar herramientas de Inteligencia Artificial para asistencia en la redacción, análisis o cualquier otra tarea, de debe especificar en la sección de **Declaración de Originalidad y Responsabilidad** aclarando el alcance y propósito de su uso.
-- Cualquier omisión en la declaración del uso de IA o la presentación de contenido plagiado será penalizado con nota de 0.0 y reporte a la coordinación del programa.
-- Si emplea referencias disponibles en línea, agregue los hipervínculos respectivos.  
-
 ---
-# Práctica 1: TÍTULO PRÁCTICA
+# Práctica 1: GNURADIO Y RECONOCIMIENTO DE LOS EQUIPOS
 
 ### Integrantes
-- **PRIMER INTEGRANTE** - Código
-- **SEGUNDO INTEGRANTE** - Código
+- **SANTIAGO HERNANDO POSADA BAYONA** - 2190428
+- **NICOLAS ROJAS** - Código
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
 
 ### Fecha
-31 de diciembre de 2030
+04 de marzo de 2025
 
 ---
 
@@ -31,15 +21,20 @@ Los autores de este informe certifican que el contenido aquí presentado es orig
 
 Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
 
-Uso de IA: [Indicar si se usó IA y para qué aspectos específicos, por ejemplo: "Se utilizó ChatGPT para reformular secciones del texto y verificar gramática, pero el contenido técnico fue desarrollado íntegramente por los autores."]
+Uso de IA: [Por el momento no se ha usado ia.]
 
 ---
 ## Contenido
 
 ### Resumen
-Descripción en no más de 150 palabras del contenido de la práctica. Debe ser conciso y brindar una idea clara sobre el trabajo realizado y sus conclusiones.
+Para esta practica se lleva a cabo la comprensión de lo que es el aplicativo GNURADIO,el realizar actividades para poder modelar espectros de señales y poder visualizar en tiempo real los fenomenos que tienen las señales de radio por medio de los equipos de laboratorio,para que así podamos irnos familiarizando con los equipos de medición pertinentes tales como el radio, osciloscopio y analizador de espectros,tambien el poder comprender los fenomenos fisicos que tienen estas señales al asignarle por medio de la aplicación GNURADIO distintos estimulos para que podamos someter estas señales a ciertas condiciones que podriamos encontrar en la practica en la vida real.
 
-**Palabras clave:** de 2 a 5 palabras clave. 
+**Palabras clave:** 
+GNURADIO,
+OSCILOSCOPIO,
+ESPECTRO,
+RADIO,
+SEÑAL.
 
 ### Introducción
 Cada práctica contará con preguntas orientadoras para la elaboración de la introducción. Por ejemplo: 
