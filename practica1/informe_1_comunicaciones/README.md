@@ -37,14 +37,39 @@ RADIO,
 SEÑAL.
 
 ### Introducción
-Cada práctica contará con preguntas orientadoras para la elaboración de la introducción. Por ejemplo: 
-- ¿Qué tan importante es la teoría de muestreo en el procesamiento de señales?
-- ¿Cuáles son los principales potenciales de GNURADIO en el laboratorio de comunicaciones?
-- ¿Qué pasa cuando se alcanza el límite de Nyquist?
-- ¿Qué tan alta debe ser la relación entre la frecuencia de muestreo y la frecuencia de la señal para visualizar la señal correctamente?
-- ¿Cuándo es importante interpolar una señal?
-- ¿Cuándo es importante diezmar una señal?
-- ¿Qué pasa cuando se asigna una frecuencia de muestreo inadecuada?
+- PRACTICA 1C:
+- ACTIVIDAD 1:
+- ¿Cómo se mide el piso de ruido en el analizador de espectros? ¿Cómo afecta la frecuencia central, SPAN y RBW la medida de piso de ruido? ¿Por qué?
+- ¿Cuál es el rango de frecuencia del USRP 2920 y cómo se compara con el del analizador de espectros?
+- ¿Qué parámetros del USRP 2920 se deben configurar para transmitir una señal en una frecuencia específica?
+- ¿Cómo se configura el osciloscopio para medir la amplitud y la frecuencia de una señal?
+- ¿Qué diferencia hay entre medir una señal en el dominio del tiempo (osciloscopio) y en el dominio de la frecuencia (analizador de espectros)?
+- ACTIVIDAD 2:
+
+- ¿Cómo se puede explicar matemáticamente la diferencia entre una fuente de tipo flotante y una de tipo complejo?
+- ¿Cómo afecta la forma de onda a la distribución de energía (potencia) en el dominio de la frecuencia?
+- ¿Qué sucede con la señal en el dominio del tiempo y la frecuencia si se modifican los diferentes parámetros de la fuente? ¿Lo observado corresponde a lo esperado teóricamente?
+- ¿Cómo se relaciona la amplitud de la señal con la potencia observada en el dominio de la frecuencia?
+- ¿Qué diferencias se observan entre una señal senoidal y una señal cuadrada en el dominio de la frecuencia?
+
+- ACTIVIDAD 3:
+- ¿Cómo se configura el USRP 2920 para transmitir una señal en una frecuencia específica?
+- ¿Qué parámetros del flujograma afectan la potencia de la señal transmitida?
+- ¿Cómo se mide el ancho de banda de la señal transmitida en el analizador de espectros?
+- ¿Cómo se calcula la relación señal a ruido (SNR) a partir de las mediciones de potencia y piso de ruido?
+- ¿Qué diferencias se observan en las mediciones de potencia cuando se varía la ganancia del USRP?
+- ¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?
+  
+- ACTIVIDAD 4:
+- ¿Qué conclusiones se pueden obtener sobre la relación entre la potencia de la señal y la calidad de la comunicación?
+- ¿Cómo afecta el piso de ruido a la capacidad de detectar señales débiles?
+- ¿Qué limitaciones tienen los equipos utilizados en términos de ancho de banda y precisión en las mediciones?
+- ¿Cómo se pueden mejorar las mediciones de señal en un entorno con alto nivel de ruido?
+- ¿Qué aplicaciones prácticas tienen las mediciones de potencia y ancho de banda en sistemas de comunicaciones reales?
+- ¿Cómo se puede medir la respuesta en frecuencia de un canal alámbrico?
+- ¿Cómo se puede obtener un modelo sencillo de las pérdidas (pathloss) en un canal inalámbrico?
+
+  
 
 ### Procedimiento
 Debe basarse en las acciones efectivamente realizadas durante el laboratorio, describiendo los procesos realizados y los resultados obtenidos. Para cada práctica se pueden brindar preguntas orientadoras o pasos a seguir para establecer lo que se espera lograr/estudiar/analizar/obtener/comparar. Por ejemplo:
