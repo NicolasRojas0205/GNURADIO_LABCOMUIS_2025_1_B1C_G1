@@ -102,7 +102,25 @@ Entornos interiores: En espacios cerrados, como oficinas, se utiliza el modelo l
 
 ### Procedimiento
 
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(1).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(2).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(3).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(4).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(5).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(6).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM.jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(1).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(10).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(2).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(3).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(4).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(5).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(6).jpeg)
 
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(10).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(9).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(7).jpeg)
+![GNU Radio logo]()
 Debe basarse en las acciones efectivamente realizadas durante el laboratorio, describiendo los procesos realizados y los resultados obtenidos. Para cada práctica se pueden brindar preguntas orientadoras o pasos a seguir para establecer lo que se espera lograr/estudiar/analizar/obtener/comparar. Por ejemplo:
 - Describa los procesos realizados en el laboratorio  y los resultados obtenidos.
 - ¿Cómo se alcanza el límite de Nyquist y que pasa cuando se disminuye de este?
@@ -141,41 +159,9 @@ Debe basarse en las acciones efectivamente realizadas durante el laboratorio, de
 
 
 ---
-# Ejemplos usando Markdown
 
-Volver al [INICIO](#laboratorio-de-comunicaciones)
 
-## Inclusión de Imágenes
-### Imagen de referencia dentro del repositorio:
-![Networking](Imágenes punto 2/)
 
-### Imagen de fuente externa
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20punto%202/Imagen%20pegada.png)
-
-### Uso de html para cambiar escala de la imagen
-<img src="https://kb.ettus.com/images/thumb/5/50/gnuradio.png/600px-gnuradio.png" alt="GNU Radio Logo" width="300">
-
-## Creación de hipevínculos 
-- [Aprende Markdown](https://markdown.es/)
-- [Más acerca de Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Abrir documento en el repositorio](my%20file/test_file.txt). Si hay espacios en la ruta de su archivo, reemplácelos por `%20`.
-- Ir a una sección de este documento. Por ejemplo: [Ir a Contenido](#contenido) Tenga en cuenta escribir el título de la sección en minúsculas y los espacios reemplazarlos por guiones.
-## Uso de Expresiones Matemáticas
-Se pueden incluir ecuaciones en el archivo `README.md` utilizando sintaxis similar a [LaTeX](https://manualdelatex.com/tutoriales/ecuaciones):
-
-### Ecuaciones en Línea
-```
-La energía de una señal exponencial es $E = \int_0^\infty A^2 e^{-2t/\tau} dt$.
-```
-**Salida renderizada:**
-La energía de una señal exponencial es $E = \int_0^\infty A^2 e^{-2t/\tau} dt$.
-
-### Ecuaciones en Bloque
-```
-$$E = \int_0^\infty A^2 e^{-2t/\tau} dt = \frac{A^2 \tau}{2}$$
-```
-**Salida renderizada**
-$$E = \int_0^\infty A^2 e^{-2t/\tau} dt = \frac{A^2 \tau}{2}$$
 
 ## Creación de Tablas
 
@@ -187,15 +173,6 @@ $$E = \int_0^\infty A^2 e^{-2t/\tau} dt = \frac{A^2 \tau}{2}$$
 | Amplitud (V) | 5 |
 | Ciclo útil (%) | 50 |
 
-## Inclusión de código
 
-```python
-def hello_world():
-    print("Hello, World!")
-```
-
-También es posible resaltar texto tipo código como `print("Hello, World!")`.
-
----
 
 Volver al [INICIO](#laboratorio-de-comunicaciones)
