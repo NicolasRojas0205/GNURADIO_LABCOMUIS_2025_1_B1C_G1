@@ -101,7 +101,9 @@ Entornos interiores: En espacios cerrados, como oficinas, se utiliza el modelo l
   
 
 ### Procedimiento
-
+### Practica 1_A
+### Practica 1_B
+### Practica 1_C
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(1).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(2).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20laboratorio%20practica1/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(3).jpeg)
