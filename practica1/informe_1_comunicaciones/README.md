@@ -101,6 +101,8 @@ Entornos interiores: En espacios cerrados, como oficinas, se utiliza el modelo l
   
 
 ### Procedimiento
+
+
 Debe basarse en las acciones efectivamente realizadas durante el laboratorio, describiendo los procesos realizados y los resultados obtenidos. Para cada práctica se pueden brindar preguntas orientadoras o pasos a seguir para establecer lo que se espera lograr/estudiar/analizar/obtener/comparar. Por ejemplo:
 - Describa los procesos realizados en el laboratorio  y los resultados obtenidos.
 - ¿Cómo se alcanza el límite de Nyquist y que pasa cuando se disminuye de este?
