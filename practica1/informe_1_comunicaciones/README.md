@@ -39,8 +39,9 @@ SEÑAL.
 ### Introducción
 - PRACTICA 1C:
 - ACTIVIDAD 1:
-- ¿Cómo se mide el piso de ruido en el analizador de espectros? ¿Cómo afecta la frecuencia central, SPAN y RBW la medida de piso de ruido? ¿Por qué?
-- ¿Cuál es el rango de frecuencia del USRP 2920 y cómo se compara con el del analizador de espectros?
+- ¿Cómo se mide el piso de ruido en el analizador de espectros? ¿Cómo afecta la frecuencia central, SPAN y RBW la medida de piso de ruido? ¿Por qué?:
+El nivel de ruido se mide en unidades dB (decibelios) o dBm ( decibelios en milivatios ), y es fundamental tener esto en cuenta para detectar cualquier sonido débil que pueda estar presente cerca de este nivel de ruido,la elección entre un RBW estrecho o ancho, así como el ajuste del SPAN, depende de lo que necesites priorizar en tu medición. Un RBW estrecho y un SPAN más amplio pueden hacer que el piso de ruido sea más notorio, mientras que un RBW más ancho y un SPAN reducido pueden ayudar a reducirlo, aunque con la desventaja de perder algo de resolución.
+- ¿Cuál es el rango de frecuencia del USRP 2920 y cómo se compara con el del analizador de espectros?:el USRP 2920 ofrece un rango de frecuencia adecuado para una gran variedad de aplicaciones de radio definida por software, llegando hasta los 2.2 GHz. Sin embargo, para un análisis más detallado y preciso, especialmente en cuanto a la resolución de señales y la medición del piso de ruido, un analizador de espectros resulta ser más adecuado. Este tipo de equipo tiene la capacidad de medir frecuencias más altas y proporciona herramientas especializadas para caracterizar señales de manera más exacta.
 - ¿Qué parámetros del USRP 2920 se deben configurar para transmitir una señal en una frecuencia específica?
 - ¿Cómo se configura el osciloscopio para medir la amplitud y la frecuencia de una señal?
 - ¿Qué diferencia hay entre medir una señal en el dominio del tiempo (osciloscopio) y en el dominio de la frecuencia (analizador de espectros)?
