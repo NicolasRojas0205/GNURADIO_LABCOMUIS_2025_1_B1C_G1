@@ -147,10 +147,10 @@ Volver al [INICIO](#laboratorio-de-comunicaciones)
 
 ## Inclusión de Imágenes
 ### Imagen de referencia dentro del repositorio:
-![Networking](my%20file/test.png)
+![Networking](Imágenes punto 2/)
 
 ### Imagen de fuente externa
-![GNU Radio logo](https://kb.ettus.com/images/thumb/5/50/gnuradio.png/600px-gnuradio.png)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes%20punto%202/Imagen%20pegada.png)
 
 ### Uso de html para cambiar escala de la imagen
 <img src="https://kb.ettus.com/images/thumb/5/50/gnuradio.png/600px-gnuradio.png" alt="GNU Radio Logo" width="300">
