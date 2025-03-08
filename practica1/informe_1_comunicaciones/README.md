@@ -132,7 +132,14 @@ Con este se lograron medir los siguientes datos:
 
 Y para la segunda parte de esta practica se exploro que medida de atenuacion se tiene cuando se somete esta señal a un cable coaxial, que en el caso que se estudio, este tiene una medida de 64 pies o de 19,50 metros. 
 
-Como se evidencia anteriormente por medio del osciloscopio podemos evidenciar de mejor manera las componentes de la señal tales como frecuencia, amplitud, como esta cambia su forma gracias al ruido y empezar a jugar con los parametros por medio de la configuración de GNURADIO, como dice el profesor en clase :"es importante saber manejar los equipos ya que son nuestros ojos", cabe aclarar que el osciloscopio es nuestros ojos para tomar mediciones en tiempo , el analizador de espectros son nuestros ojos para analizar en el area de la frecuencia, como sucede la convolución, que pasa cuando agregamos ruido y demas.
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_2/Imagen%20de%20WhatsApp%202025-03-08%20a%20las%2000.59.11_967dc6dd.jpg)
+
+Luego de esto se procede a tomar los datos en el analizador de espectro para analizar que atenuacion tiene un cable coaxial, en la cual se obtienen los siguientes datos para un cable coaxial de una longitud de 19.50 metros.
+
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_2/Imagen%20de%20WhatsApp%202025-03-08%20a%20las%2001.07.38_45dedcf0.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_2/Imagen%20de%20WhatsApp%202025-03-08%20a%20las%2001.09.58_81d1d1b1.jpg)
+
+Como se evidencia anteriormente por medio del osciloscopio y analizador de espectros podemos evidenciar de mejor manera las componentes de la señal tales como frecuencia, amplitud, como esta cambia su forma gracias al ruido y empezar a jugar con los parametros por medio de la configuración de GNURADIO, como dice el profesor en clase :"es importante saber manejar los equipos ya que son nuestros ojos", cabe aclarar que el osciloscopio es nuestros ojos para tomar mediciones en tiempo , el analizador de espectros son nuestros ojos para analizar en el area de la frecuencia, como sucede la convolución, que pasa cuando agregamos ruido y demas.
 
 ### Practica 1_C
 Para esta practica mayoritariamente usamos el analizador de espectros, ya que por medio de la aplicación de GNURADIO caracterizamos una señal por medio del radio, le asignamos valores y comenzamos a ajustar las mediciones del analizador de espectros para ver la forma de la señal en el area de la frecuencia como se ve acontinuación, le asignamos valores de offset y ruido para poder evidenciar que en el dominio de la frecuancia estos parametros lo que me hacen es o modificar su amplitud o desplazar el espectro en frecuancia
