@@ -105,7 +105,7 @@ Entornos interiores: En espacios cerrados, como oficinas, se utiliza el modelo l
 En la Práctica 1A, se llevaron a cabo diversas simulaciones en GNU Radio con el propósito de familiarizarse con su interfaz y funcionalidades. Durante la práctica, se modificaron parámetros como la frecuencia de muestreo, la frecuencia de la señal y el tipo de onda introducida, analizando la respuesta del sistema tras su paso por distintos bloques de procesamiento de señales tal y como se muestra a continuación:
 
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1A/punto_1/Imagen%20pegada%20(2).png)
-![GNU Radio logo]()
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1A/punto_2/Imagen%20pegada.png)
 
 Posteriormente, se realizó un análisis comparativo entre el límite de Nyquist y una frecuencia de muestreo mayor, estableciendo una relación de muestreo de 5:1 para evaluar las ventajas de operar con frecuencias superiores al límite teórico. Para este análisis, se empleó al menos una señal distinta a la senoidal, permitiendo observar de manera práctica los efectos del muestreo sobre distintas formas de onda.
 
