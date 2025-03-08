@@ -6,7 +6,7 @@
 
 ### Integrantes
 - **SANTIAGO HERNANDO POSADA BAYONA** - 2190428
-- **NICOLAS ROJAS** - Código
+- **NICOLAS ROJAS REYES** - 2210402
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
