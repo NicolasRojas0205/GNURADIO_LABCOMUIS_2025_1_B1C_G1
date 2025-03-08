@@ -152,7 +152,7 @@ A continuacion un poco de los parametros que se midieron como las mediciones ver
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(1).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM.jpeg)
 
-
+En la segunda parte se realizo las mediciones por medio de GNU RADIO y del radio para asi conectarlo al osciloscopio y al analizador de espectros, para asi comparar con la repsuesta dada en el computador tal y como se muestra a continuación
 
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(1).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(2).jpeg)
