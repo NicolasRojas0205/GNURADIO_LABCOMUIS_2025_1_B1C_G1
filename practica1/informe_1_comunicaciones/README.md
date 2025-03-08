@@ -114,7 +114,7 @@ Posteriormente, se realizó un análisis comparativo entre el límite de Nyquist
 
 A lo largo de la Práctica 1A, se logró una comprensión fundamental del entorno de GNU Radio, permitiendo la familiarización con su interfaz y la configuración de parámetros esenciales para el procesamiento de señales. Se experimentó con distintos valores de frecuencia de muestreo y frecuencia de la señal, así como con diferentes tipos de ondas, observando cómo cada ajuste impactaba en la señal procesada. Un aspecto clave fue la exploración del límite de Nyquist y la comparación con una frecuencia de muestreo mayor, demostrando la importancia de una correcta selección de la relación de muestreo para evitar efectos como el aliasing. A través de estos experimentos, se evidenció cómo una tasa de muestreo superior al límite de Nyquist permite una representación más fiel de la señal original, garantizando una mejor calidad en su procesamiento, en la carpeta dejada a continuacion se puede ver todo el proceso completo de esta practica y que se hizo paso a paso:
 
--[`practica_1A/`](GNURADIO_LABCOMUIS_2025_1_B1C_G1/practica1/practica_1A/)
+-[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](practica1/practica_1A)
 
 
 
