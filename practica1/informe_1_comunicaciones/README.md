@@ -143,19 +143,22 @@ Como se evidencia anteriormente por medio del osciloscopio y analizador de espec
 
 ### Practica 1_C
 Para esta practica mayoritariamente usamos el analizador de espectros, ya que por medio de la aplicación de GNURADIO caracterizamos una señal por medio del radio, le asignamos valores y comenzamos a ajustar las mediciones del analizador de espectros para ver la forma de la señal en el area de la frecuencia como se ve acontinuación, le asignamos valores de offset y ruido para poder evidenciar que en el dominio de la frecuancia estos parametros lo que me hacen es o modificar su amplitud o desplazar el espectro en frecuencia
+
+A continuacion un poco de los parametros que se midieron como las mediciones verticales y horizontales, la resolucion de la pantalla, etc. de cada uno de los equipos.
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(6).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(4).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(3).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(2).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(1).jpeg)
-
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM.jpeg)
+
+
+
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(1).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(2).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM.jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(1).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(10).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(11).jpeg)
+
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(2).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(3).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(4).jpeg)
@@ -163,6 +166,8 @@ Para esta practica mayoritariamente usamos el analizador de espectros, ya que po
 Para esta parte de la practica se nos solicita por medio de la antena sintonizar una señal de radio para poder visualizar la forma del espectro que contiene cada señal de estación de radio y en que ancho de banda operan para poder sintonizarla, como se muestra en las miganes adaptamos las mediciones para seleccionar una estación de radio y ver de manera grafica como es su forma de espectro, cabe aclarar que las estaciones de radio FM se sintonizan en un rango de 80Khz y 110 Khz, a su vez sintonizamos la emisora de la uis y la dejamos en su ancho de banda, pudimos ver como tenia ruido a medida que moviamos la antena.
 
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(9).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(10).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(11).jpeg)
 
 
 
@@ -197,19 +202,6 @@ Para esta parte de la practica se nos solicita por medio de la antena sintonizar
 
 
 ---
-
-
-
-
-## Creación de Tablas
-
-**Tabla 1.** Ejemplo de tabla en Markdown.
-
-| Parámetro | Valor |
-|-----------|-------|
-| Frecuencia (Hz) | 1000 |
-| Amplitud (V) | 5 |
-| Ciclo útil (%) | 50 |
 
 
 
