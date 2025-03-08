@@ -141,6 +141,9 @@ Luego de esto se procede a tomar los datos en el analizador de espectro para ana
 
 Como se evidencia anteriormente por medio del osciloscopio y analizador de espectros podemos evidenciar de mejor manera las componentes de la señal tales como frecuencia, amplitud, como esta cambia su forma gracias al ruido y empezar a jugar con los parametros por medio de la configuración de GNURADIO, como dice el profesor en clase :"es importante saber manejar los equipos ya que son nuestros ojos", cabe aclarar que el osciloscopio es nuestros ojos para tomar mediciones en tiempo , el analizador de espectros son nuestros ojos para analizar en el area de la frecuencia, como sucede la convolución, que pasa cuando agregamos ruido y demas.
 
+Se puede ver toda la evidencia en la siguiente ruta:
+-[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/practica1/practica1/practica_1B)
+
 ### Practica 1_C
 Para esta practica mayoritariamente usamos el analizador de espectros, ya que por medio de la aplicación de GNURADIO caracterizamos una señal por medio del radio, le asignamos valores y comenzamos a ajustar las mediciones del analizador de espectros para ver la forma de la señal en el area de la frecuencia como se ve acontinuación, le asignamos valores de offset y ruido para poder evidenciar que en el dominio de la frecuancia estos parametros lo que me hacen es o modificar su amplitud o desplazar el espectro en frecuencia
 
@@ -167,7 +170,8 @@ Para esta parte de la practica se nos solicita por medio de la antena sintonizar
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(10).jpeg)
 ![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(11).jpeg)
 
-
+Se puede ver toda la evidencia en la siguiente ruta:
+-[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/practica1/practica1/imagenes_1_C_lab)
 
 ### Conclusiones
 - Las mediciones de señales son fundamentales para comprender cómo las señales de comunicación se propagan a través de diversos entornos. El uso de herramientas como el osciloscopio y el analizador de espectros permite obtener información precisa sobre características clave como la amplitud, la frecuencia, el ancho de banda y la potencia de la señal.
