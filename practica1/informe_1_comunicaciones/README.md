@@ -122,11 +122,15 @@ A lo largo de la Práctica 1A, se logró una comprensión fundamental del entorn
 Para esta practica el objetivo es familiarizarse con los elementos de medición tales como el osciloscopio, analizador de espectros y el radio, lo que se propone es la comprensión de como el computador se comunica con el radio, se analiza las caracteristicas de cada equipo de medición , tambien que pueden hacer o que capacidad se alcanza el analizador de espectros y el osciloscopio, tomamos como referencia del manual de ususario de cada elemento las caracteristicas como que el analizador de espectros puede analizar desde un rango de frecuencia de 5Khz a 1Ghz, que este quipo por si solo tiene cierto ruido como se evidencia en las imagenes y medimos estos valores de tolerancia, la forma que tenia el ruido en el analizador de espectros, tambien como el radio tiene su propio ruido de interferencia(se aclara que tuvimos un equipo un poco defectuoso ya que al momento de tomar los valores de tolerancia del equipo al conectarse al osciloscopio se aprecia un ruido en la señal y no se vé bien definida como se evidencia en la primera imagen.
 
 En la primera parte de esta actividad realizamos unas mediciones de amplitud en el osciloscopio con una señal generada gracias a GNU RADIO, como se puede evidenciar en la siguiente conexion
-![GNU Radio logo]()
-![GNU Radio logo]()
-![GNU Radio logo]()
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/WhatsApp%20Image%202025-02-21%20at%206.43.59%20PM%20(1).jpeg)
+Y con este se fueron variando los parametros de ganancia GTX a diferentes frecuencias, en lo cual se obtuvo lo siguiente:
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/WhatsApp%20Image%202025-02-21%20at%206.43.59%20PM%20(2).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/WhatsApp%20Image%202025-02-21%20at%206.44.00%20PM.jpeg)
+Con este se lograron medir los siguientes datos:
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/Imagen%20de%20WhatsApp%202025-03-03%20a%20las%2000.09.01_660fec29.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/Imagen%20de%20WhatsApp%202025-03-03%20a%20las%2000.09.39_19806ca0.jpg)
 
-
+Y para la segunda parte de esta practica se exploro que medida de atenuacion se tiene cuando se somete esta señal a un cable coaxial, que en el caso que se estudio, este tiene una medida de 64 pies, o de 19.50 metros 
 
 Como se evidencia anteriormente por medio del osciloscopio podemos evidenciar de mejor manera las componentes de la señal tales como frecuencia, amplitud, como esta cambia su forma gracias al ruido y empezar a jugar con los parametros por medio de la configuración de GNURADIO, como dice el profesor en clase :"es importante saber manejar los equipos ya que son nuestros ojos", cabe aclarar que el osciloscopio es nuestros ojos para tomar mediciones en tiempo , el analizador de espectros son nuestros ojos para analizar en el area de la frecuencia, como sucede la convolución, que pasa cuando agregamos ruido y demas.
 
