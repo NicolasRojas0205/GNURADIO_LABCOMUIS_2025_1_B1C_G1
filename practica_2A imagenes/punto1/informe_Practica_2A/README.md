@@ -12,7 +12,7 @@ Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones
 Universidad Industrial de Santander
 
 ### Fecha
-07 de marzo de 2025
+21 de marzo de 2025
 
 ---
 
@@ -27,47 +27,41 @@ Uso de IA: [mencionamos el uso de IA para corroborar la redacción, corroborar q
 ## Contenido
 
 ### Resumen
-Para esta practica se lleva a cabo la comprensión de lo que es el aplicativo GNURADIO,el realizar actividades para poder modelar espectros de señales y poder visualizar en tiempo real los fenomenos que tienen las señales de radio por medio de los equipos de laboratorio,para que así podamos irnos familiarizando con los equipos de medición pertinentes tales como el radio, osciloscopio y analizador de espectros,tambien el poder comprender los fenomenos fisicos que tienen estas señales al asignarle por medio de la aplicación GNURADIO distintos estimulos para que podamos someter estas señales a ciertas condiciones que podriamos encontrar en la practica en la vida real.
+Para el presente laboratorio, se utiliza GNU Radio para simular un canal de comunicación, se configura filtros y se analiza los efectos de la variación de las frecuencias de corte sobre la señal, además, se evalúa el impacto del ruido en las señales en el dominio del tiempo y la frecuencia, se realiza un análisis gráfico para identificar el umbral de ruido máximo que permitía recuperar una señal utilizando únicamente el filtrado,se trabaja con el USRP 2920 ,un osciloscopio y un analizador de espectros para observar cómo un canal alámbrico real afecta la transmisión de señales. Se transmite señales a través de cables coaxiales de diferentes longitudes y se varía las frecuencias de portadora, por parte Se analiza cómo el ruido y la desviación de frecuencia impactan la amplitud de la señal y se discutieron posibles métodos para mejorar la relación señal-ruido.
 
 **Palabras clave:** 
-GNURADIO,
-OSCILOSCOPIO,
+RUIDO,
+DESFACE,
 ESPECTRO,
-RADIO,
-SEÑAL.
+COMUNICACIÓN,
+ANTENAS.
 
 ### Introducción
-- PRACTICA 1C:
+- PRACTICA 2A:
 - ACTIVIDAD 1:
-- ¿Cómo se mide el piso de ruido en el analizador de espectros? ¿Cómo afecta la frecuencia central, SPAN y RBW la medida de piso de ruido? ¿Por qué?:
-El nivel de ruido se mide en unidades dB (decibelios) o dBm ( decibelios en milivatios ), y es fundamental tener esto en cuenta para detectar cualquier sonido débil que pueda estar presente cerca de este nivel de ruido,la elección entre un RBW estrecho o ancho, así como el ajuste del SPAN, depende de lo que necesites priorizar en tu medición. Un RBW estrecho y un SPAN más amplio pueden hacer que el piso de ruido sea más notorio, mientras que un RBW más ancho y un SPAN reducido pueden ayudar a reducirlo, aunque con la desventaja de perder algo de resolución.
-- ¿Cuál es el rango de frecuencia del USRP 2920 y cómo se compara con el del analizador de espectros?:el USRP 2920 ofrece un rango de frecuencia adecuado para una gran variedad de aplicaciones de radio definida por software, llegando hasta los 2.2 GHz. Sin embargo, para un análisis más detallado y preciso, especialmente en cuanto a la resolución de señales y la medición del piso de ruido, un analizador de espectros resulta ser más adecuado. Este tipo de equipo tiene la capacidad de medir frecuencias más altas y proporciona herramientas especializadas para caracterizar señales de manera más exacta.
-- ¿Qué parámetros del USRP 2920 se deben configurar para transmitir una señal en una frecuencia específica?:
-Para transmitir una señal en una frecuencia específica con un USRP 2920, es necesario configurar varios parámetros clave:
+- ¿Cuál es el efecto de filtrar las frecuencias altas de una señal?:Filtrar las frecuencias altas de una señal tiene como resultado la atenuación o eliminación de las componentes de mayor frecuencia, lo que puede hacer que la señal se vuelva más suave y libre de ruidos o interferencias no deseadas. Sin embargo, este proceso también puede causar la pérdida de detalles importantes de la señal, especialmente si esas frecuencias altas contienen información relevante.
 
-Frecuencia de transmisión (TX Frequency): Se debe establecer la frecuencia en la que se quiere transmitir la señal. Esto se hace configurando el parámetro tx_freq, generalmente en Hertz (Hz).
+- ¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?:Filtrar demasiado cerca de la frecuencia fundamental de la señal puede afectar significativamente su forma y calidad. Al hacerlo, se corre el riesgo de atenuar componentes importantes de la señal, lo que podría distorsionarla o incluso eliminar parte de la información esencial. Esto puede reducir la claridad o precisión de la señal, afectando su interpretación o transmisión.
+- ¿Cuál es el efecto de filtrar las frecuencias bajas de una señal?:Filtrar las frecuencias bajas de una señal resulta en la eliminación o atenuación de las componentes de baja frecuencia, lo que puede hacer que la señal se vuelva más nítida al reducir el ruido o las variaciones lentas no deseadas. Sin embargo, esto también puede eliminar partes importantes de la señal si esas frecuencias bajas contienen información clave para su correcta interpretación.
 
-Tasa de muestreo (Sample Rate): Este parámetro define cuántas muestras por segundo se generan en el proceso de transmisión. Dependiendo del ancho de banda de la señal, se debe ajustar la tasa de muestreo para que sea adecuada al tipo de señal.
-
-Ganancia de transmisión (TX Gain): La ganancia controla la potencia de la señal transmitida. Se ajusta según la necesidad de potencia de salida, y se expresa en decibelios (dB).
-
-Selección de antena (TX Antenna): Si el USRP tiene varias antenas, se debe configurar cuál utilizar para la transmisión de la señal.
-
-Tipo de modulación (si es necesario): Dependiendo de la aplicación, puede ser necesario configurar el tipo de modulación de la señal, como BPSK, QPSK, QAM, entre otras.
-- ¿Cómo se configura el osciloscopio para medir la amplitud y la frecuencia de una señal?:Amplitud: Ajusta el control de Volts/Div para una medición precisa de la amplitud.
-Frecuencia: Ajusta el control de Time/Div para ver varias oscilaciones y medir la frecuencia.
-- ¿Qué diferencia hay entre medir una señal en el dominio del tiempo (osciloscopio) y en el dominio de la frecuencia (analizador de espectros)?:el osciloscopio es adecuado para analizar cómo cambia una señal en el tiempo, mientras que el analizador de espectros es mejor para entender su composición en frecuencia. Ambos son útiles según el tipo de análisis que se necesite realizar.
+- ¿Qué ocurre al eliminar armónicos de una señal?:Eliminar los armónicos de una señal puede hacer que pierda parte de su estructura original, alterando su forma y carácter. Los armónicos son componentes importantes que le dan a la señal su tono y riqueza, por lo que al eliminarlos, la señal puede volverse más simple o distorsionada, perdiendo información relevante o causando una percepción menos precisa de la señal original.
+- ¿Qué efecto tiene la reducción de frecuencia en la señal recibida? ¿Qué efecto(s) produce el filtro cuando la señal recibida se ve afectada por la desviación de frecuencia?:La reducción de frecuencia en la señal recibida puede hacer que la señal se vuelva más susceptible a la distorsión, ya que al reducir la frecuencia, es posible que se pierdan detalles importantes de la señal original. Esto puede afectar su calidad y dificultar la correcta interpretación de la información.
+Cuando la señal recibida está afectada por la desviación de frecuencia, el filtro puede ayudar a minimizar la distorsión al eliminar o suavizar las variaciones no deseadas en la frecuencia. Sin embargo, si la desviación es significativa, el filtro podría no ser suficiente para recuperar completamente la señal original, lo que podría generar una pérdida de calidad o de información.
+- ¿Cómo cuantificar la degradación de la señal al aumentar los niveles de ruido?:La degradación de la señal al aumentar los niveles de ruido se puede cuantificar observando cómo varía la relación señal a ruido (SNR). A medida que el ruido aumenta, la SNR disminuye, lo que indica una mayor interferencia en la señal. También se pueden usar métricas como el error de bit (BER) en señales digitales o el nivel de distorsión en señales analógicas, para medir el impacto del ruido sobre la calidad de la señal. Un aumento en el ruido suele resultar en una pérdida de claridad, lo que se refleja en una mayor dificultad para recuperar la señal original.
+- ¿Cómo se puede mejorar la relación señal a ruido en una señal?:Para mejorar la relación señal a ruido en una señal, se pueden emplear varias técnicas. Una opción es aumentar la potencia de la señal transmitida, lo que ayuda a que la señal sea más fuerte en comparación con el ruido. Otra estrategia es utilizar filtros para eliminar las frecuencias no deseadas que contribuyen al ruido. Además, se pueden usar técnicas de modulación y codificación más eficientes que hagan la señal más resistente a las interferencias. También es útil minimizar las fuentes de ruido en el entorno de transmisión, como el uso de cables de buena calidad o la reducción de la distancia entre el transmisor y el receptor.
+- ¿Cómo podría cuantificar la calidad de la señal recibida? Considere el caso de señales analógicas y digitales:La calidad de la señal recibida se puede cuantificar de diferentes maneras según el tipo de señal. En el caso de señales analógicas, una forma común es medir la distorsión armónica total (THD) o el error cuadrático medio (MSE), que indican cuánto se ha desviado la señal recibida respecto a la original. También se puede observar la relación señal a ruido (SNR) para ver qué tan clara es la señal en comparación con el ruido presente.
+Para señales digitales, se puede utilizar el porcentaje de error de bit (BER), que mide la cantidad de bits erróneos recibidos en comparación con los bits transmitidos. Además, la tasa de símbolos erróneos (SER) también es útil para evaluar la calidad en términos de símbolos transmitidos. En ambos casos, una mayor SNR o menor BER/SER generalmente indica una mejor calidad de la señal recibida.
 - ACTIVIDAD 2:
 
-- ¿Cómo se puede explicar matemáticamente la diferencia entre una fuente de tipo flotante y una de tipo complejo?:Una fuente flotante representa una señal que solo tiene una componente real en función del tiempo, y su forma matemática generalmente se describe como una función de la amplitud y la frecuencia. Esta señal es comúnmente representada por una ecuación como 
-𝑥(𝑡)=𝐴(𝑡)cos⁡(2𝜋𝑓𝑡+𝜙) x(t)=A(t)cos(2πft+ϕ), donde𝐴(𝑡)A(t) es la amplitud y𝜙ϕ la fase.
-En cambio, una fuente compleja se refiere a una señal que tiene tanto una parte real como una parte imaginaria. Su expresión matemática usa la forma exponencial compleja 𝑥(𝑡)=𝐴(𝑡)𝑒𝑗(2𝜋𝑓𝑡+𝜙) x(t)=A(t)ej(2πft+ϕ) , donde la 𝑗 j indica la unidad imaginaria. Esto permite capturar información sobre la amplitud y la fase en una sola fórmula, lo que es útil para representar fenómenos más complejos y analizar señales en el dominio de la frecuencia.
-- ¿Cómo afecta la forma de onda a la distribución de energía (potencia) en el dominio de la frecuencia?:la forma de onda determina cómo se distribuye la energía a lo largo del espectro de frecuencias. Las señales con formas más complejas, como las ondas cuadradas, tienen una distribución de energía más ancha y contienen más frecuencias, mientras que las señales simples, como las ondas sinusoidales, concentran su energía en una frecuencia específica.
-- ¿Qué sucede con la señal en el dominio del tiempo y la frecuencia si se modifican los diferentes parámetros de la fuente? ¿Lo observado corresponde a lo esperado teóricamente?:cuando se modifican estos parámetros en el dominio del tiempo y la frecuencia está en línea con lo que se espera teóricamente. Las variaciones en la frecuencia, amplitud y fase de la señal se reflejan de manera predecible tanto en el comportamiento temporal de la señal como en su distribución de frecuencia, según los principios de la transformada de Fourier y las características fundamentales de las señales.
-- ¿Cómo se relaciona la amplitud de la señal con la potencia observada en el dominio de la frecuencia?:la amplitud de una señal tiene un impacto directo en la potencia observada en el dominio de la frecuencia. A mayor amplitud en el dominio del tiempo, mayor es la potencia en el dominio de la frecuencia, y esto se refleja como un aumento en la magnitud de las componentes espectrales de la señal.
-- ¿Qué diferencias se observan entre una señal senoidal y una señal cuadrada en el dominio de la frecuencia?:Señal senoidal: Toda la energía se concentra en una única frecuencia.
-Señal cuadrada: La energía se distribuye a través de una serie de frecuencias que incluyen frecuencia fundamental y armónicos impares.
-Por lo tanto, en el dominio de la frecuencia, la señal cuadrada tiene un espectro más ancho y complejo que la señal senoidal, la cual es monofrecuencia.
+- ¿Cuál es el efecto del ruido sobre la amplitud de las señales medidas en el osciloscopio? ¿Conservan las mismas relaciones que se evidencian en la simulación?
+
+- ¿La relación señal a ruido creada intencionalmente en el computador se amplifica o se reduce en la señal observada en el osciloscopio?
+
+- Demuestre ¿cómo se puede mejorar la relación señal a ruido en una señal?
+- ¿Cómo se evidencia el fenómeno de desviación de frecuencia en el osciloscopio? Evidenciar al menos con dos formas de onda.
+- Usando cables coaxiales de diferentes longitudes, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?
+- Usando antenas, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? ¿Es posible compensar el fenómeno?
+- ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
 
 - ACTIVIDAD 3:
 - ¿Cómo se configura el USRP 2920 para transmitir una señal en una frecuencia específica?:1.Conectar el USRP al sistema.
