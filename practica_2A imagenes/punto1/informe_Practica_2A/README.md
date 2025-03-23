@@ -74,93 +74,83 @@ Para señales digitales, se puede utilizar el porcentaje de error de bit (BER), 
 - ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?:seria un modelo acoplado a la practica el Canal AWGN como en el literal anterior ya que estamos teniendo un sistema de comunicación bastante basico, lo cual nos sirve ya que vamos a introducir ruido, cambios en la amplitud, filtrar la señal y de mas fenomenos que debemos tener en cuenta al momento de hacer las mediciones.
   
 - ACTIVIDAD 4:
-- ¿Cómo se evidencian los diferentes fenómenos de canal en la señal recibida?
-- ¿Cómo se pueden mitigar los efectos del canal en la señal recibida?
+- ¿Cómo se evidencian los diferentes fenómenos de canal en la señal recibida?:en la practica realizamos las mediciones con dos tipologias de señal,tipo sierra y tipo triangular,para el canal establecido coaxial al probar con ambos cables uno de 64 pies y otro de 4 pies aproximadamente, se evidencian la perdida de potencia por distancia, se evidencia un poco de ruido al transimitir por el cable en sus diferentes longitudes,a diferencia de la transimisión inhalambrica por las antenas que tienen un poco mas de ruido y que estas pierden bastante potencia a comparación del coaxial que al tener un cable de 64 pies sigue teniendo llegando mas potencia al receptor que las antenas a pocos metros de distancia del receptor.
+- ¿Cómo se pueden mitigar los efectos del canal en la señal recibida?:para el tipo inhalambrico optaria por tener o repetidores cada cierta distancia o que el transmisor de radio tenga mas potencia para que el receptor le pueda llegar la señal a mas distancia,redireccionar las antenas lo mejor posible que se vean fijamente y evitar obstaculos para que su comunicación sea lo mas precisa posible, para la comunicación por el canal de coaxial, mejoraria el tipo de aislante o optaria por un calibre de material mas puro o 100% cobre para que no me genere tanto ruido o evitar perdidas por el tipo de material del cable, que el emisor envie la señal con mas potencia para que no se caiga tan rapido por la longitud del cable.
 
 
   
 
 ### Procedimiento
-### Practica 1_A
+### Practica 2_A Actividad 1:
 En la Práctica 1A, se llevaron a cabo diversas simulaciones en GNU Radio con el propósito de familiarizarse con su interfaz y funcionalidades. Durante la práctica, se modificaron parámetros como la frecuencia de muestreo, la frecuencia de la señal y el tipo de onda introducida, analizando la respuesta del sistema tras su paso por distintos bloques de procesamiento de señales tal y como se muestra a continuación:
 
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1A/punto_1/Imagen%20pegada%20(2).png)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1A/punto_2/Imagen%20pegada.png)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencia_pregunta_1/FiltradoAlto.png)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencia_pregunta_1/FiltradoBajas.png)
 
 Posteriormente, se realizó un análisis comparativo entre el límite de Nyquist y una frecuencia de muestreo mayor, estableciendo una relación de muestreo de 5:1 para evaluar las ventajas de operar con frecuencias superiores al límite teórico. Para este análisis, se empleó al menos una señal distinta a la senoidal, permitiendo observar de manera práctica los efectos del muestreo sobre distintas formas de onda.
 
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1A/punto_6/Imagen%20pegada%20(2).png)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1A/punto_6/Imagen%20pegada.png)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencia_pregunta_1/Filtradofrecfundamental.png)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencia_pregunta_1/FrecuenciaDesviada.png)
 
 A lo largo de la Práctica 1A, se logró una comprensión fundamental del entorno de GNU Radio, permitiendo la familiarización con su interfaz y la configuración de parámetros esenciales para el procesamiento de señales. Se experimentó con distintos valores de frecuencia de muestreo y frecuencia de la señal, así como con diferentes tipos de ondas, observando cómo cada ajuste impactaba en la señal procesada. Un aspecto clave fue la exploración del límite de Nyquist y la comparación con una frecuencia de muestreo mayor, demostrando la importancia de una correcta selección de la relación de muestreo para evitar efectos como el aliasing. A través de estos experimentos, se evidenció cómo una tasa de muestreo superior al límite de Nyquist permite una representación más fiel de la señal original, garantizando una mejor calidad en su procesamiento, en la carpeta dejada a continuacion se puede ver todo el proceso completo de esta practica y que se hizo paso a paso:
 
--[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/practica1/practica1/practica_1A)
+-[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/Practica2/practica_2A%20imagenes/punto1/evidencia_pregunta_1)
 
 
 
-### Practica 1_B
+### Practica 2_A Actividad 2:
 Para esta practica el objetivo es familiarizarse con los elementos de medición tales como el osciloscopio, analizador de espectros y el radio, lo que se propone es la comprensión de como el computador se comunica con el radio, se analiza las caracteristicas de cada equipo de medición , tambien que pueden hacer o que capacidad se alcanza el analizador de espectros y el osciloscopio, tomamos como referencia del manual de ususario de cada elemento las caracteristicas como que el analizador de espectros puede analizar desde un rango de frecuencia de 5Khz a 1Ghz, que este quipo por si solo tiene cierto ruido como se evidencia en las imagenes y medimos estos valores de tolerancia, la forma que tenia el ruido en el analizador de espectros, tambien como el radio tiene su propio ruido de interferencia(se aclara que tuvimos un equipo un poco defectuoso ya que al momento de tomar los valores de tolerancia del equipo al conectarse al osciloscopio se aprecia un ruido en la señal y no se vé bien definida como se evidencia en la primera imagen.
 
 En la primera parte de esta actividad realizamos unas mediciones de amplitud en el osciloscopio con una señal generada gracias a GNU RADIO, como se puede evidenciar en la siguiente conexion
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/WhatsApp%20Image%202025-02-21%20at%206.43.59%20PM%20(1).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/Evidencia%20actividad%202/Imagen%20de%20WhatsApp%202025-03-04%20a%20las%2019.28.33_d8186ebf.jpg)
 Y con este se fueron variando los parametros de ganancia GTX a diferentes frecuencias, en lo cual se obtuvo lo siguiente:
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/WhatsApp%20Image%202025-02-21%20at%206.43.59%20PM%20(2).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/WhatsApp%20Image%202025-02-21%20at%206.44.00%20PM.jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/Evidencia%20actividad%202/Imagen%20de%20WhatsApp%202025-03-04%20a%20las%2019.28.33_f5c0e0d2.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/Evidencia%20actividad%202/Imagen%20de%20WhatsApp%202025-03-04%20a%20las%2019.30.12_6fe1abdd.jpg)
 Con este se lograron medir los siguientes datos:
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/Imagen%20de%20WhatsApp%202025-03-03%20a%20las%2000.09.01_660fec29.jpg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_1/Imagen%20de%20WhatsApp%202025-03-03%20a%20las%2000.09.39_19806ca0.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/Evidencia%20actividad%202/Imagen%20de%20WhatsApp%202025-03-04%20a%20las%2019.30.12_9b401d5c.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/Evidencia%20actividad%202/Imagen%20de%20WhatsApp%202025-03-04%20a%20las%2019.31.08_8574c24b.jpg)
 
 Y para la segunda parte de esta practica se exploro que medida de atenuacion se tiene cuando se somete esta señal a un cable coaxial, que en el caso que se estudio, este tiene una medida de 64 pies o de 19,50 metros. 
 
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_2/Imagen%20de%20WhatsApp%202025-03-08%20a%20las%2000.59.11_967dc6dd.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/Evidencia%20actividad%202/Imagen%20de%20WhatsApp%202025-03-04%20a%20las%2019.31.32_b7d03f8a.jpg)
 
 Luego de esto se procede a tomar los datos en el analizador de espectro para analizar que atenuacion tiene un cable coaxial, en la cual se obtienen los siguientes datos para un cable coaxial de una longitud de 19.50 metros.
 
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_2/Imagen%20de%20WhatsApp%202025-03-08%20a%20las%2001.07.38_45dedcf0.jpg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/practica_1B/Punto_2/Imagen%20de%20WhatsApp%202025-03-08%20a%20las%2001.09.58_81d1d1b1.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/Evidencia%20actividad%202/Imagen%20de%20WhatsApp%202025-03-04%20a%20las%2019.41.19_d4a6add1.jpg)
 
 Como se evidencia anteriormente por medio del osciloscopio y analizador de espectros podemos evidenciar de mejor manera las componentes de la señal tales como frecuencia, amplitud, como esta cambia su forma gracias al ruido y empezar a jugar con los parametros por medio de la configuración de GNURADIO, como dice el profesor en clase :"es importante saber manejar los equipos ya que son nuestros ojos", cabe aclarar que el osciloscopio es nuestros ojos para tomar mediciones en tiempo , el analizador de espectros son nuestros ojos para analizar en el area de la frecuencia, como sucede la convolución, que pasa cuando agregamos ruido y demas.
 
 Se puede ver toda la evidencia en la siguiente ruta:
--[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/practica1/practica1/practica_1B)
+-[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/Practica2/practica_2A%20imagenes/punto1/Evidencia%20actividad%202)
 
-### Practica 1_C
+### Practica 2_A Actividad 3:
 Para esta practica mayoritariamente usamos el analizador de espectros, ya que por medio de la aplicación de GNURADIO caracterizamos una señal por medio del radio, le asignamos valores y comenzamos a ajustar las mediciones del analizador de espectros para ver la forma de la señal en el area de la frecuencia como se ve acontinuación, le asignamos valores de offset y ruido para poder evidenciar que en el dominio de la frecuancia estos parametros lo que me hacen es o modificar su amplitud o desplazar el espectro en frecuencia
 
 A continuacion un poco de los parametros que se midieron como las mediciones verticales y horizontales, la resolucion de la pantalla, etc. de cada uno de los equipos.
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.05%20AM%20(6).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(4).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(3).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(2).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM%20(1).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_practica1_Alab/WhatsApp%20Image%202025-03-03%20at%2012.12.06%20AM.jpeg)
-
-En la segunda parte se realizo las mediciones por medio de GNU RADIO y del radio para asi conectarlo al osciloscopio y al analizador de espectros, para asi comparar con la repsuesta dada en el computador tal y como se muestra a continuación
-
-
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(1).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(2).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(3).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(4).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(5).jpeg)
-
-Para esta parte de la practica se nos solicita por medio de la antena sintonizar una señal de radio para poder visualizar la forma del espectro que contiene cada señal de estación de radio y en que ancho de banda operan para poder sintonizarla, como se muestra en las miganes adaptamos las mediciones para seleccionar una estación de radio y ver de manera grafica como es su forma de espectro, cabe aclarar que las estaciones de radio FM se sintonizan en un rango de 80Khz y 110 Khz, a su vez sintonizamos la emisora de la uis y la dejamos en su ancho de banda, pudimos ver como tenia ruido a medida que moviamos la antena.
-
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(9).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(10).jpeg)
-![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/practica1/practica1/imagenes_1_C_lab/WhatsApp%20Image%202025-03-03%20at%2012.12.07%20AM%20(11).jpeg)
-
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_Actividad_3/WhatsApp%20Image%202025-03-21%20at%201.42.28%20PM%20(1).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_Actividad_3/WhatsApp%20Image%202025-03-21%20at%201.42.28%20PM%20(2).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_Actividad_3/WhatsApp%20Image%202025-03-21%20at%201.42.28%20PM%20(3).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_Actividad_3/WhatsApp%20Image%202025-03-21%20at%201.42.28%20PM%20(4).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_Actividad_3/WhatsApp%20Image%202025-03-21%20at%201.42.28%20PM%20(5).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_Actividad_3/WhatsApp%20Image%202025-03-21%20at%201.42.28%20PM.jpeg)
 Se puede ver toda la evidencia en la siguiente ruta:
--[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/practica1/practica1/imagenes_1_C_lab)
+-[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/Practica2/practica_2A%20imagenes/punto1/evidencias_Actividad_3)
+### Practica 2_A Actividad 4:
+Se puede ver toda la evidencia en la siguiente ruta:
+
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_actividad_4/WhatsApp%20Image%202025-03-21%20at%201.46.44%20PM%20(1).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_actividad_4/WhatsApp%20Image%202025-03-21%20at%201.46.44%20PM.jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_actividad_4/WhatsApp%20Image%202025-03-21%20at%201.46.45%20PM%20(1).jpeg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica2/practica_2A%20imagenes/punto1/evidencias_actividad_4/WhatsApp%20Image%202025-03-21%20at%201.46.45%20PM%20(2).jpeg)
+
+-[`GNURADIO_LABCOMUIS_2025_1_B1C_G1/`](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/tree/Practica2/practica_2A%20imagenes/punto1/evidencias_actividad_4)
 
 ### Conclusiones
-- Las mediciones de señales son fundamentales para comprender cómo las señales de comunicación se propagan a través de diversos entornos. El uso de herramientas como el osciloscopio y el analizador de espectros permite obtener información precisa sobre características clave como la amplitud, la frecuencia, el ancho de banda y la potencia de la señal.
-- Existen varios modelos para estimar las pérdidas de trayectoria (pathloss) en un canal inalámbrico, cada uno adecuado para diferentes escenarios. El modelo de propagación en espacio libre es sencillo y útil en condiciones ideales sin obstáculos, pero en entornos más complejos, como áreas urbanas o interiores, modelos como el de Hata o el modelo log-normal ofrecen estimaciones más precisas al considerar la interferencia de obstáculos y las características específicas del entorno.
-- La potencia de la señal tiene una relación directa con la calidad de la comunicación.
-- os parámetros de la fuente, como la frecuencia y la amplitud, tienen un impacto directo en la señal transmitida.
-- ara obtener mediciones más precisas en entornos con alto nivel de ruido, es crucial utilizar técnicas y equipos que ayuden a reducir la interferencia y a mejorar la relación señal-ruido.
-- El osciloscopio son nuestros ojos en el dominio del tiempo y el analizador de espectros son nuestros ojos en el dominio de la frecuencia.
-- Todo equipo de medición tiene cierto valor de tolerancia ya que no todo es perfecto, por ende debemos tener en cuenta los margenes establecidos por el fabricante.
+- Efecto de la distancia y el medio de transmisión en la señal: La distancia entre el transmisor y el receptor, ya sea usando cables coaxiales o antenas, afecta directamente la calidad de la señal. A medida que aumenta la distancia, ya sea con cables largos o antenas, la señal pierde potencia y se vuelve más susceptible a interferencias. Esto puede mitigarse utilizando amplificadores de señal o repetidores para reforzar la transmisión.
+- Influencia del ruido en la señal: El ruido tiene un impacto significativo tanto en la forma de la señal como en su espectro. En el dominio del tiempo, provoca variaciones en la amplitud, mientras que en el dominio de la frecuencia genera distorsiones que dificultan la identificación de las frecuencias originales. La relación señal-ruido medida en un entorno real suele ser peor que en la simulación, ya que factores como el ruido ambiental o la interferencia del equipo afectan la señal.
+- Papel de los filtros en la mejora de la señal: Los filtros son esenciales para mejorar la calidad de la señal al eliminar las frecuencias no deseadas que generan ruido. Sin embargo, es importante tener cuidado al ajustar las frecuencias de corte, ya que filtrar demasiado cerca de la frecuencia principal o eliminar armónicos importantes puede alterar la señal y reducir su precisión.
+- Modelos de canal y su relación con las mediciones: El modelo AWGN (ruido blanco gaussiano aditivo) es el más adecuado para describir las mediciones realizadas en este laboratorio, ya que refleja de manera precisa los efectos del ruido y las pérdidas de señal que se producen en un canal de comunicación simple. Este modelo ayuda a entender cómo el ruido y la atenuación afectan la transmisión de señales en condiciones reales.
+- Mejoras en la relación señal-ruido (SNR): Para optimizar la relación señal-ruido, es recomendable aumentar la potencia de la señal transmitida, usar técnicas de modulación y codificación más eficaces, aplicar filtros que eliminen las frecuencias indeseadas y reducir las fuentes de ruido en el entorno. Estas acciones son cruciales tanto en canales alámbricos como inalámbricos para asegurar una transmisión más clara y eficiente.
 
 ### Referencias
 
