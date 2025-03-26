@@ -1,0 +1,49 @@
+id: modulacionAM_1
+label: Not titled yet
+category: '[GRC posada Blocks]'
+flags:
+- cpp
+
+parameters:
+-   id: Ac
+    label: amplitud...a  portadora
+    dtype: real
+    default: '1'
+    hide: none
+-   id: ka
+    label: coeficiente ka
+    dtype: real
+    default: '1'
+    hide: none
+
+inputs:
+-   label: m(t)
+    dtype: float
+    vlen: 1
+
+outputs:
+-   label: s(t)
+    dtype: complex
+    vlen: 1
+
+templates:
+    import: 'from modulacionAM_1 import modulacionAM_1  # grc-generated hier_block'
+    make: "modulacionAM_1(\n    Ac=${ Ac },\n    ka=${ ka },\n)"
+    callbacks:
+    - set_Ac(${ Ac })
+    - set_ka(${ ka })
+
+cpp_templates:
+    includes:
+    - '#include "modulacionAM_1/modulacionAM_1.hpp"'
+    make: "modulacionAM_1(\n    Ac=${ Ac },\n    ka=${ ka },\n)"
+    callbacks:
+    - set_Ac(${ Ac })
+    - set_ka(${ ka })
+
+documentation: 'estudiante
+
+    /home/estudiante/practica1_modulacion_AM/modulacionAM_1'
+grc_source: /home/estudiante/practica1_modulacion_AM/modulacionAM_1.grc
+
+file_format: 1
