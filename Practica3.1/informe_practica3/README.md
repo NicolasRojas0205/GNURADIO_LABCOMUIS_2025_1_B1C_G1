@@ -38,23 +38,21 @@ Observar el comportamiento del espectro de una señal AM al variar el índice de
 
 A continuación, se presentan las tres señales moduladas en amplitud con diferentes índices de modulación:
 
-#### 📉 Caso 1: \( ka \cdot A_m < 1 \)
+#### Caso 1: \( ka \cdot A_m < 1 \)
 
 ![Caso 1](ruta/a/tu/imagen1.jpg)
 
-#### 📉 Caso 2: \( ka \cdot A_m \approx 1 \)
+#### Caso 2: \( ka \cdot A_m \approx 1 \)
 
 ![Caso 2](ruta/a/tu/imagen2.jpg)
 
-#### 📉 Caso 3: \( ka \cdot A_m > 1 \)
+#### Caso 3: \( ka \cdot A_m > 1 \)
 
 ![Caso 3](ruta/a/tu/imagen3.jpg)
 
-> 📌 *Reemplaza `"ruta/a/tu/imagenX.jpg"` con el nombre real del archivo de imagen una vez que las subas a GitHub (por ejemplo: `./img/caso1.jpg`).*
-
 ---
 
-## 📊 Datos obtenidos del analizador de espectros
+##  Datos obtenidos del analizador de espectros
 
 > Puedes incluir esta tabla como una **imagen** si la formateaste en Excel o cualquier otro editor gráfico.
 
@@ -66,7 +64,7 @@ A continuación, se presentan las tres señales moduladas en amplitud con difere
 
 ---
 
-## 🧮 Cálculo del índice de modulación
+##  Cálculo del índice de modulación
 
 Se utilizó la siguiente fórmula para estimar el índice de modulación a partir de la potencia de la portadora y la potencia de una de las bandas laterales:
 
@@ -90,7 +88,7 @@ Aplicando esta fórmula a cada caso:
 
 ---
 
-## 🧠 Análisis
+## Análisis
 
 - Cuando \( ka \cdot A_m < 1 \), la señal se encuentra **submodulada**. Se observa que las bandas laterales tienen amplitud muy baja en comparación con la portadora.
 - Al alcanzar \( ka \cdot A_m = 1 \), se obtiene una modulación **ideal**, donde la energía se reparte balanceadamente entre la portadora y las bandas laterales.
@@ -98,12 +96,11 @@ Aplicando esta fórmula a cada caso:
 
 ---
 
-## 📁 Archivos
+## Archivos
 
 - `img/caso1.jpg` — Señal AM con índice < 1  
 - `img/caso2.jpg` — Señal AM con índice ≈ 1  
 - `img/caso3.jpg` — Señal AM con índice > 1  
-- `tabla.png` — Tabla resumen de potencias, NdB y ka·Am
 
 ---
 
