@@ -40,15 +40,15 @@ A continuación, se presentan las tres señales moduladas en amplitud con difere
 
 #### Caso 1: \( ka \cdot A_m < 1 \)
 
-![Caso 1](Practica3.1/IMAGENES PRACTIA 1/Imagen de WhatsApp 2025-04-12 a las 00.25.14_24e02e42.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica3/Practica3.1/IMAGENES%20PRACTIA%201/Imagen%20de%20WhatsApp%202025-04-12%20a%20las%2000.25.14_24e02e42.jpg)
 
 #### Caso 2: \( ka \cdot A_m \approx 1 \)
 
-![Caso 2](Practica3.1/IMAGENES PRACTIA 1/Imagen de WhatsApp 2025-04-12 a las 00.25.14_c006c6ed.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica3/Practica3.1/IMAGENES%20PRACTIA%201/Imagen%20de%20WhatsApp%202025-04-12%20a%20las%2000.25.14_c006c6ed.jpg)
 
 #### Caso 3: \( ka \cdot A_m > 1 \)
 
-![Caso 3](Practica3.1/IMAGENES PRACTIA 1/Imagen de WhatsApp 2025-04-12 a las 00.25.15_984c3292.jpg)
+![GNU Radio logo](https://github.com/NicolasRojas0205/GNURADIO_LABCOMUIS_2025_1_B1C_G1/blob/Practica3/Practica3.1/IMAGENES%20PRACTIA%201/Imagen%20de%20WhatsApp%202025-04-12%20a%20las%2000.25.15_984c3292.jpg)
 
 ---
 
